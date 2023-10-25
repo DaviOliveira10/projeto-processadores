@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+*{
+    font-family: 'Share Tech', sans-serif; /*a fonte de todo o site*/
+    font-size: 20px; /*tamanho da fonte de todo o site*/
+}
+body{
+    background-color: darkgreen; /*caso demore pra abrir o site ele ficará com fundo verde até carregar*/
+    background-image: url("imagens-20230925T154853Z-001/imagens/cpu-wallpaper.jpg"); /*plano de fundo do site*/
+    background-repeat: no-repeat; /*para não repetir o papel de parede várias vezes*/
+    background-position: center center; /*para centralizar o papel de parede*/
+    background-size: cover; /*para o papel de parede cobrir toda a tela*/
+    background-attachment: fixed; /*para a imagem permanecer fixa enquanto mexe no site*/
+}
+main{
+    max-width: 600px ; /*tamanho máximo de main e section*/
+    margin: 20px auto; /*separação de um bloco para outro e centralização*/
+}
+section {
+    background-color: white ;/*cor de fundo de main e section*/
+    margin: 20px 0px; /*para separar os blocos um do outro*/
+    padding: 15px; /*separação lateral das letras*/
+    border-radius: 15px; /*para arredondar a borda*/
+    box-shadow:0px 0px 20px rgba(0, 0, 0, 0.562)
+}
+p{
+    text-align: justify; /*para alinhar as letras*/
+    line-height: 1.5em; /*distania de uma linha para a outra*/
+    text-indent: 20px; /*distância da indentação do começo do início da linha*/
+}
+h1,h2{
+    color:darkgreen;
+}
+img.direita{
+    float: right; /*para a imagem ir à direita*/
+    margin-left: 15px; /*para criar um espaço à esquerda da imagem*/
+}
+img.cheia{
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-radius: 15px;
+}
+div.video > iframe{
+    width: 100%; 
+    border-radius: 15px;
+}
+/* 
+    Google Fonts = Share Tech 
+    Cor de fundo e dos títulos = darkgreen
+*/
