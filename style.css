@@ -5,7 +5,7 @@
 }
 body{
     background-color: darkgreen; /*caso demore pra abrir o site ele ficará com fundo verde até carregar*/
-    background-image: url("imagens-20230925T154853Z-001/imagens/cpu-wallpaper.jpg"); /*plano de fundo do site*/
+    background-image: url("imagens/cpu-wallpaper.jpg"); /*plano de fundo do site*/
     background-repeat: no-repeat; /*para não repetir o papel de parede várias vezes*/
     background-position: center center; /*para centralizar o papel de parede*/
     background-size: cover; /*para o papel de parede cobrir toda a tela*/
